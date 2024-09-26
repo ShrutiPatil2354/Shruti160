@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a[10],i;
+	printf("Numbers in the array are\n");
+	for(i=0;i<10;i++)
+	{
+		scanf("%d",&a[i]);
+		
+	}
+	printf("Values into array are:\n");
+	for(i=0;i<10;i++)
+	{
+		printf("%d\t",a[i]);
+	}
+	
+}
